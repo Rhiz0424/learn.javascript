@@ -1,0 +1,36 @@
+* {
+  background: #F2F4F6;
+}
+
+h3 {
+  background: #AFC9DC;
+  padding: 50px;
+  border-radius: 15px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.btn {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h3:hover {
+  background: skyblue;
+  transition: all .6s ease-in-out;
+}
+
+.btn:hover {
+  background: #AFC9DC;
+  color: white;
+  transition: all .6s ease-in-out;
+}
